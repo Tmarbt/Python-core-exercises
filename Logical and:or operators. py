@@ -1,0 +1,25 @@
+#tasks from:https://younglinux.info/python/operators
+#1st task
+x = 5
+y = 8
+print(x < 23 and y > 3)
+print(x > 7 and y < 6)
+#2nd task
+print(x > 7 or y < 34)
+print(x < 3 or y < 7)
+#3rd task
+z = "Hello, world!"
+d = "My name is Tioma"
+print("H" in z and "t" in d)
+print("Hello" in z and "Tomas" in d)
+#4th task
+from cs50 import get_string
+usser_data = get_string("Please, write something below: ")
+print(usser_data)
+number1 = str(input("Please, write 1st number: ")) 
+number2 = str(input("Please, write 2nd number: ")) 
+result = "Result is: "
+if number1 > number1:
+    print(f"{result}", True)
+else:
+    print(f"{result}", False)
