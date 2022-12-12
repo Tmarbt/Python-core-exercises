@@ -1,4 +1,4 @@
-task from: https://younglinux.info/python/local-global
+#task from: https://younglinux.info/python/local-global
 #1st task
 result = 0
 p = 3.14
